@@ -1,0 +1,49 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+main{
+border: solid purple 8px;
+}
+figure {
+    display: flex;
+    justify-content: space-between;
+    /* 
+     ATUA NO EIXO X - DE LADO EM LINHA
+
+    flex-start -> vai posicionar os nossos elementos no extremo esquerdo da sua caixa.
+
+    center -> vai posicionar os nosssos elemntos ao centro da sua caixa
+
+    flex-end -> vai posicionar os nossos elementos no extrema direita da sua caixa
+
+    space-evely -> ele vai dar um espaçamento pequeno na sua caixa
+
+    space-aroud -> ele vai dar um espaçamento médio
+
+    space-between -> ele vai dar um espaçamento máximo
+
+    */
+
+    align-items: center ;
+
+    /* 
+       ATUA NO EIXO Y - NAS ALTURAS DA CAIXA
+
+    flex-star -> vai poscionar ao extremo topo (top)
+
+    center -> vai posicionar ao centro da nossa caixa
+
+    flex-end -> vai posicionar os elementos ao extremo final (bottom)
+
+    */
+border: solid;
+background-color: tomato;
+height: 85vh;
+}
+img {
+    display: inline-block;
+width: 21vw;
+height: 24vh;
+}
